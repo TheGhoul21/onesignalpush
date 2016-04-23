@@ -1,0 +1,15 @@
+{
+    "name": "theghoul21/onesignal-push",
+    "authors": [
+        {
+            "name": "Luca Simonetti",
+            "email": "little.che90@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "OneSignal": "src/"
+        }
+    }
+}
