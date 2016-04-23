@@ -26,10 +26,7 @@ class Push
         $params = array_merge($options, ['tags' => $tags]);
 
 
-        var_dump(OneSignal::call('notifications', 'POST', $params));
-        exit;
-
-        return "";
+        return (OneSignal::call('notifications', 'POST', $params));
     }
 
 
